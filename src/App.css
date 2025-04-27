@@ -1,0 +1,136 @@
+ /* General Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(45deg, #6a11cb, #2575fc); /* Beautiful gradient */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #0077cc;
+  font-size: 36px;
+}
+
+/* Search Bar */
+.search-bar {
+  margin-bottom: 30px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 16px;
+  font-size: 18px;
+  border: 2px solid #0077cc;
+  border-radius: 12px;
+  outline: none;
+}
+
+.search-bar input:focus {
+  border-color: #005fa3;
+  box-shadow: 0 0 8px rgba(0, 95, 163, 0.5);
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select {
+  flex: 1;
+  padding: 16px;
+  font-size: 18px;
+  border: 2px solid #0077cc;
+  border-radius: 12px;
+  outline: none;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus,
+form select:focus {
+  border-color: #005fa3;
+}
+
+form button {
+  padding: 16px 24px;
+  background-color: #28a745;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+/* Sort Dropdown */
+.sort-dropdown {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sort-dropdown select {
+  padding: 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th {
+  background-color: #0077cc;
+  color: white;
+  padding: 16px;
+  font-size: 18px;
+  text-align: left;
+}
+
+table td {
+  padding: 16px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+table tr:hover {
+  background-color: #f1f9ff;
+}
+
+table button {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+table button:hover {
+  background-color: #c82333;
+}
